@@ -1,0 +1,14 @@
+-X POST -H "Content-Type: application/json" -d '{
+  "CenterName": "ABC Training Center",
+  "CenterCode": "TC1234567890",
+  "Address": {
+    "Street": "123 Main St",
+    "City": "Somewhere",
+    "State": "CA",
+    "PostalCode": "12345"
+  },
+  "StudentCapacity": 100,
+  "CoursesOffered": ["Course1", "Course2"],
+  "ContactEmail": "contact@abc.com",
+  "ContactPhone": "1234567890"
+}'
